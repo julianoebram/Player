@@ -1,0 +1,51 @@
+.video{
+	top: 0px;
+	left: 0px;
+
+	width: 70%; 
+	height: 70%;
+	
+	position: absolute;
+	background-size: cover; 
+	
+
+}
+
+#relogio{
+	/*color: #cca300;*/
+	font:bold 72px Arial;
+	
+	right: 55%;	
+	top: 20%;
+
+	position: absolute;
+
+	animation: AnimationName 11s ease infinite;
+	background: linear-gradient(0deg, #c31432, #240b36);
+	background-size: 1200% 1200%;
+
+	-webkit-background-clip: text;
+			background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+
+.botao{
+	left: 50%;
+	top: 25%;
+	height: 110%;
+	position: relative;
+	
+}
+.playlist{
+	position: relative;
+}
+#audio{
+	display: none;
+}
+

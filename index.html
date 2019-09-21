@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relógio</title>
+	<link rel="stylesheet" href="css/relogio.css">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+</head>
+
+<body onload="relogio()" >
+	<video autoplay loop muted class="video">
+		<source src="video/swloop.webm" type="video/webm">
+		<source src="video/swloop.mp4" type="video/mp4">
+	</video>
+	<div class="fundo" >
+		<audio id ="audio"src="audio/audio.mp3" controls>
+		</audio>
+		<div class="fundo">
+			<div id="relogio">
+			</div>
+		</div>
+	<div/>
+	    
+
+	<div class="switch botao">
+	    <label>
+	     <i class="small circle z-depth-2 blue accent-2 waves-effect  material-icons" onclick="pause()">pause_circle_outline</i>  
+	      <input type="checkbox">
+	      <span class="lever" onclick="pause()"></span>
+	      <i class="small circle z-depth-2 light-green accent-3 waves-effect  material-icons" onclick="pause()">play_circle_outline</i>
+	    </label>
+ 	 </div>	
+
+	<button class="botao playlist waves-effect purple accent-1 z-depth-2 btn-small material-icons" onclick="playlist()" >skip_next</button>	
+
+	
+
+
+	<script type="text/javascript" src="javaScript/relogio.js"></script>
+	<script type="text/javascript" src="javaScript/playlist.js"></script>
+</body>
+</html>

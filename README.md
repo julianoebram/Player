@@ -1,2 +1,1 @@
-"# js-player" 
-"# Player" 
+Player Em JavaScript com background animado e relógio.
